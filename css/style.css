@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -696,7 +696,7 @@ body {
   padding: 0 0 10rem;
   text-transform: none;
 }
-body, body * { font-family: "Poppins", sans-serif; }
+body, body * { font-family: 'Montserrat', 'Segoe UI', sans-serif; }
 ::selection { color: var(--ink); background: var(--acid); }
 html::-webkit-scrollbar-track { background: var(--ink); }
 html::-webkit-scrollbar-thumb { background: var(--acid); }
