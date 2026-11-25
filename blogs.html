@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080b0a">
+    <meta name="description" content="Notes de projets et réalisations de Simon Pierre, développeur full stack à Douala.">
+    <title>Journal — Simon Pierre</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <script src="js/theme.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/theme.css">
+
+</head>
+<body>
+<div class="curtain" aria-hidden="true"><b>Simon Pierre</b></div>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="ring" aria-hidden="true"></div>
+<div class="scroll-progress" aria-hidden="true"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+    
+<!-- navbar section starts  -->
+
+<nav class="navbar" aria-label="Navigation principale">
+    <a href="index.html"><i class="fas fa-home" aria-hidden="true"></i><span>Accueil</span></a>
+    <a href="about.html"><i class="fas fa-user" aria-hidden="true"></i><span>À propos</span></a>
+    <a href="portfolio.html"><i class="fas fa-briefcase" aria-hidden="true"></i><span>Projets</span></a>
+    <a href="blogs.html"><i class="fas fa-layer-group" aria-hidden="true"></i><span>Journal</span></a>
+    <a href="contact.html"><i class="fas fa-paper-plane" aria-hidden="true"></i><span>Contact</span></a>
+<button class="theme-toggle" id="theme-toggle" type="button" aria-label="Basculer entre mode clair et mode sombre"><i class="fas fa-moon" aria-hidden="true"></i></button>
+</nav>
+
+<!-- navbar section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs">
+
+    <h1 class="heading"> <span>Le</span> journal de bord </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 2024 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>accompagnement BTS : correction d'examens</h3>
+                <p>Après la soutenance, mise en place d'un système de correction et de mise en forme d'épreuves BTS camerounaises (2024-2025) avec ReportLab, couvrant l'algorithmique, la comptabilité analytique et les réseaux.</p>
+                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 2025 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>mise en forme de CV professionnels</h3>
+                <p>Conception de CV en deux colonnes pour des étudiants et professionnels camerounais, générés en HTML/CSS puis convertis en PDF avec WeasyPrint, avec en-tête sombre et pied de page orange.</p>
+                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 2025 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>dossier de candidature stage</h3>
+                <p>Rédaction et mise en page de lettres de motivation, lettre de demande de stage et description de projet, selon les standards professionnels attendus au Cameroun.</p>
+                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog4.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 2026 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>site vitrine « Simon's »</h3>
+                <p>Développement d'un site professionnel one-page en français pour clients camerounais : navigation glassmorphism, hero animé avec bloc de code IDE, grille de services et tarification en 3 formules.</p>
+                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog5.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 2026 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>site surprise anniversaire</h3>
+                <p>Création d'un site multi-pages pour un anniversaire : accès par code secret, séquence d'enveloppe animée, galerie photo et annonce de voyage, avec lecture audio continue entre les pages, déployé sur Netlify.</p>
+                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog6.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 2026 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>refonte du portfolio personnel</h3>
+                <p>Construction de ce portfolio multi-pages en HTML/CSS/JS, présentant deux années de projets menés depuis la soutenance : profil, compétences et réalisations en tant que développeur fullstack.</p>
+                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/fx.js"></script>
+</body>
+</html>

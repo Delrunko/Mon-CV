@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080b0a">
+    <meta name="description" content="Une sélection de projets web réalisés par Simon Pierre : applications de recrutement, gestion et commerce.">
+    <title>Projets — Simon Pierre</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <script src="js/theme.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/theme.css">
+
+</head>
+<body>
+<div class="curtain" aria-hidden="true"><b>Simon Pierre</b></div>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="ring" aria-hidden="true"></div>
+<div class="scroll-progress" aria-hidden="true"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+    
+<!-- navbar section starts  -->
+
+<nav class="navbar" aria-label="Navigation principale">
+    <a href="index.html"><i class="fas fa-home" aria-hidden="true"></i><span>Accueil</span></a>
+    <a href="about.html"><i class="fas fa-user" aria-hidden="true"></i><span>À propos</span></a>
+    <a href="portfolio.html"><i class="fas fa-briefcase" aria-hidden="true"></i><span>Projets</span></a>
+    <a href="blogs.html"><i class="fas fa-layer-group" aria-hidden="true"></i><span>Journal</span></a>
+    <a href="contact.html"><i class="fas fa-paper-plane" aria-hidden="true"></i><span>Contact</span></a>
+<button class="theme-toggle" id="theme-toggle" type="button" aria-label="Basculer entre mode clair et mode sombre"><i class="fas fa-moon" aria-hidden="true"></i></button>
+</nav>
+
+<!-- navbar section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio">
+
+    <h1 class="heading"> <span>Projets</span> sélectionnés </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/img-1.png" alt="">
+            <div class="content">
+                <h3>Application Sygesc</h3>
+                <p> Présences, notes et comptes enseignants validés par un administrateur. En particulier il est pensé de telle sorte qu'un enseignants est une application disponible partout!</p>
+                <a href="htts://sygesc.delrunko27.workers.dev">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-2.png" style="width: 10% !important;"  alt="">
+            <div class="content">
+                <h3>gestion de bibliothèque</h3>
+                <p>Application de librairie technique en ligne (eds-dombou.com) avec comptes et profils. Permettant aux génie civil de mieux qpprendre...</p>
+                <a href="htts://eds-dombou.com">read more</a>
+            </div>
+        </div>
+       
+        <div class="box">
+            <img src="images/img-3.png" alt="">
+            <div class="content">
+                <h3>application de Marige en ligne</h3>
+                <p>Application de mariage réutilisable avec animations et mode projection, pour gagner en visibilité auprès des mairies.</p>
+                <a href="https://mariage-immersif.delrunko27.workers.dev/">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-4.jpg" alt="">
+            <div class="content">
+                <h3>vente de produits agropastoraux</h3>
+                <p>Application de vente en ligne de produits agropastoraux, avec catalogue de produits, gestion des commandes et suivi des ventes.</p>
+                <a href="#">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-5.jpg" alt="">
+            <div class="content">
+                <h3>Mini Convertisseur</h3>
+                <p>Application de bureau pour convertir des documents, avec une interface noir, blanc et or.</p>
+                <a href="https://github.com/Delrunko/mini-convertisseur">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-6.png" alt="">
+            <div class="content">
+                <h3> Kamga Cargo - Facturier</h3>
+                <p>Application PWA de facturation pour une agence de transport de colis Guangzhou–Douala : devis, reçus, rôles (admin, caissier, agent), mode hors ligne et impression ticket.</p>
+                <a href="https://kamga-cargo-ie.delrunko27.workers.dev/">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+    <h1 class="heading sub"> <span>Réalisations</span> récentes </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="cover"><small>01</small><h4>Kamga Cargo · Facturier</h4><div class="tags"><span>React</span><span>PWA</span><span>Hors ligne</span></div></div>
+            <div class="content"><h3>Kamga Cargo · Facturier</h3><p>Application PWA de facturation pour une agence de transport de colis Guangzhou–Douala : devis, reçus, rôles (admin, caissier, agent), mode hors ligne et impression ticket. <br> <a href="https://kamga-cargo-ie.delrunko27.workers.dev/" target="_blank" rel="noopener">voir le projet</a</p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>02</small><h4>Noun Travel · Al Barka Line</h4><div class="tags"><span>Réservation</span><span>Anti-double vente</span></div></div>
+            <div class="content"><h3>Noun Travel · Al Barka Line</h3><p>Système anti-double vente de sièges pour le transport interurbain, réalisé pour BigData Center. Actuellement en cours!!</p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>03</small><h4>Chariot</h4><div class="tags"><span>React</span><span>Django REST</span></div></div>
+            <div class="content"><h3>Chariot</h3><p>Plateforme de librairie en ligne avec catalogue et commandes.</p></div>
+        </div>
+        <div class="box">
+            <div class="cover" href=""><small>04</small><h4>Ets Dombou Services Express</h4><div class="tags"><span>Supabase</span><span>E-commerce</span></div></div>
+            <div class="content"><h3>Ets Dombou Services Express</h3><p>Site de librairie technique en ligne (eds-dombou.com) avec comptes et profils.</p><a href="https://eds-dombou.com" target="_blank" rel="noopener">voir le projet</a></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>05</small><h4>HOME K'D</h4><div class="tags"><span>3D</span><span>GSAP</span></div></div>
+            <div class="content"><h3>HOME K'D</h3><p>Site web 3D premium pour une boutique et un institut de beauté à Douala : beauté, coiffure, bijoux, parfumerie.</p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>06</small><h4>Mariage immersif</h4><div class="tags"><span>GSAP</span><span>Three.js</span></div></div>
+            <div class="content"><h3>Mariage immersif</h3><p>Site de mariage réutilisable avec animations et mode projection, pour gagner en visibilité auprès des mairies. <a href="https://mariage-immersif.delrunko27.workers.dev/" target="_blank" rel="noopener">voir le projet</a></p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>07</small><h4>Hôtel 4 étoiles</h4><div class="tags"><span>HTML / CSS / JS</span><span>GSAP</span></div></div>
+            <div class="content"><h3>Hôtel 5 étoiles</h3><p>Site vitrine d'un hôtel de luxe, animé façon expérience immersive. <br> <a href="https://hotel-francis.vercel.app/" target="_blank" rel="noopener">voir le projet</a></p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>08</small><h4>Gestion scolaire</h4><div class="tags"><span>React</span><span>Vite</span><span>Supabase</span></div></div>
+            <div class="content"><h3>Gestion scolaire</h3><p>Présences, notes et comptes enseignants validés par un administrateur. <br><a href="http://sygesc.delrunko27.workers.dev/" target="_blank" rel="noopener">voir le projet</a</p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>09</small><h4>Ets MNS Service</h4><div class="tags"><span>HTML / CSS / JS</span><span>Responsive</span></div></div>
+            <div class="content"><h3>Ets MNS Service</h3><p>Site vitrine d'une entreprise d'organisation d'événements au Cameroun : mariages, anniversaires, corporate. <br><a href="http://sygesc.delrunko27.workers.dev/" target="_blank" rel="noopener">voir le projet</a</p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>10</small><h4>Chez Liam's</h4><div class="tags"><span>Site vitrine</span><span>Hébergement</span></div></div>
+            <div class="content"><h3>Chez Liam's</h3><p>Site vitrine d'un salon de coiffure pour hommes à Douala, de la conception à l'hébergement. <br> <a href="https://chez-liam.netlify.app" target="_blank" rel="noopener">voir le projet</a</p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>11</small><h4>La Cave d'Or</h4><div class="tags"><span>HTML</span><span>Animations</span></div></div>
+            <div class="content"><h3>La Cave d'Or</h3><p>Site vitrine premium et animé pour une cave à whisky. <br> <a href="https://cave-or-bigdatacenter.vercel.app/" target="_blank" rel="noopener">voir le projet</a</p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>12</small><h4>Ambre d'Ange</h4><div class="tags"><span>Django</span><span>Catalogue</span></div></div>
+            <div class="content"><h3>Ambre d'Ange</h3><p>Catalogue en ligne pour une parfumerie.</p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>13</small><h4>Boulangerie Francis Nganou</h4><div class="tags"><span>GSAP</span><span>Site vitrine</span></div></div>
+            <div class="content"><h3>Boulangerie Francis Nganou</h3><p>Site stylé et animé pour une boulangerie. <br> <a href="https://boulangeriefg.delrunko27.workers.dev/" target="_blank" rel="noopener">voir le projet</a</p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>14</small><h4>MACACOS</h4><div class="tags"><span>Refonte</span><span>Travail d'équipe</span></div></div>
+            <div class="content"><h3>MACACOS</h3><p>Refonte du site d'un groupe média, menée en équipe.</p></div>
+        </div>
+        <div class="box">
+            <div class="cover"><small>15</small><h4>Mini Convertisseur</h4><div class="tags"><span>Python</span><span>Tkinter</span></div></div>
+            <div class="content"><h3>Mini Convertisseur</h3><p>Application de bureau pour convertir des documents, avec une interface noir, blanc et or.</p><a href="https://github.com/Delrunko/mini-convertisseur" target="_blank" rel="noopener">voir le projet</a></div>
+        </div>
+
+    </div>
+
+    <a href="contact.html" class="btn">Parlons de votre projet <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    
+</section>
+
+<!-- portfolio section ends -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/fx.js"></script>
+</body>
+</html>

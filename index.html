@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#080b0a">
+    <meta name="description" content="Simon Pierre, développeur full stack à Douala. Je transforme des idées en expériences web utiles, élégantes et performantes.">
+    <title>Simon Pierre — Chef du service Développement informatique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="js/theme.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+<div class="curtain" aria-hidden="true"><b>Simon Pierre</b></div>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="ring" aria-hidden="true"></div>
+<div class="scroll-progress" aria-hidden="true"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<nav class="navbar" aria-label="Navigation principale">
+    <a href="index.html"><i class="fas fa-home" aria-hidden="true"></i><span>Accueil</span></a>
+    <a href="about.html"><i class="fas fa-user" aria-hidden="true"></i><span>À propos</span></a>
+    <a href="portfolio.html"><i class="fas fa-briefcase" aria-hidden="true"></i><span>Projets</span></a>
+    <a href="blogs.html"><i class="fas fa-layer-group" aria-hidden="true"></i><span>Journal</span></a>
+    <a href="contact.html"><i class="fas fa-paper-plane" aria-hidden="true"></i><span>Contact</span></a>
+<button class="theme-toggle" id="theme-toggle" type="button" aria-label="Basculer entre mode clair et mode sombre"><i class="fas fa-moon" aria-hidden="true"></i></button>
+</nav>
+
+<main>
+    <section class="home">
+        <div class="content">
+            <div class="eyebrow">Portfolio 2026 · Douala, Cameroun</div>
+            <h1>Je code des idées en <span>expériences</span> qui marquent.</h1>
+            <span><b class="rot" data-roles='["Chef du service Développement informatique","Responsable commercial","Leader &amp; Manager","Développeur full stack"]'>Chef du service Développement informatique</b></span>
+            <p>Leader et manager, je pilote une équipe, je dialogue avec les clients et je transforme leurs besoins en produits web utiles, élégants et fiables. Du premier échange à la dernière ligne de code, l’esprit d’équipe fait la différence.</p>
+            <a href="portfolio.html" class="btn">Découvrir mes projets <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            <div class="hero-meta"><span class="status-dot" aria-hidden="true"></span> Disponible pour de nouvelles collaborations</div>
+        </div>
+        <div class="image portrait-frame">
+            <img src="images/user.png" alt="Portrait de Simon Pierre">
+            <div class="portrait-label"><strong>Simon Pierre</strong>Curieux par nature. Créateur par passion.</div>
+        </div>
+    </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/fx.js"></script>
+</body>
+</html>
